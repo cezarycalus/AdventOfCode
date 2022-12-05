@@ -40,3 +40,23 @@ for letter in letters:
 print(points)
 # print(letters)
 # print(backpackDt)
+
+
+# from string import ascii_letters
+
+# with open("day3.txt") as f:
+#     backpack_items = f.read().splitlines()
+
+# scoring = {letter: i for i, letter in enumerate(ascii_letters, start=1)}
+
+# points: list[int] = []
+
+# for item in backpack_items:
+#     half = int(len(item) / 2)
+
+#     for letter in item[:half]:
+#         if letter in item[half:]:
+#             points.append(scoring[letter])
+#             break
+
+# print(sum(points))
